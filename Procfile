@@ -1,1 +1,1 @@
-web:gunicorn Ecom.wsgi --log-file -
+web:waitress-serve --listen=127.0.0.1:$PORT mysite.wsgi:application
