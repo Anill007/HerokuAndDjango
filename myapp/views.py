@@ -6,3 +6,7 @@ from django.shortcuts import render
 
 def helloworld(request):
     return render(request, "myapp/index.html")
+
+
+def helloworld2(request):
+    return render(request, "second.html")
